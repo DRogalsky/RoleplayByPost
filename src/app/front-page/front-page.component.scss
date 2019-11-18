@@ -1,0 +1,53 @@
+// /* Color Theme Swatches in Hex */
+// $Wonder-Bar---Modified-Victorian-1-hex: #676787;
+// $Wonder-Bar---Modified-Victorian-2-hex: #E2AD3B;
+// $Wonder-Bar---Modified-Victorian-3-hex: #BF5C00;
+// $Wonder-Bar---Modified-Victorian-4-hex: #901B0F;
+// $Wonder-Bar---Modified-Victorian-5-hex: #5C0F0F;
+
+// /* Color Theme Swatches in RGBA */
+// $Wonder-Bar---Modified-Victorian-1-rgba: rgba(102,103,135, 1);
+// $Wonder-Bar---Modified-Victorian-2-rgba: rgba(226,172,59, 1);
+// $Wonder-Bar---Modified-Victorian-3-rgba: rgba(191,91,0, 1);
+// $Wonder-Bar---Modified-Victorian-4-rgba: rgba(144,26,15, 1);
+// $Wonder-Bar---Modified-Victorian-5-rgba: rgba(91,14,14, 1);
+
+// /* Color Theme Swatches in HSLA */
+// $Wonder-Bar---Modified-Victorian-1-hsla: hsla(239, 13, 46, 1);
+// $Wonder-Bar---Modified-Victorian-2-hsla: hsla(40, 74, 55, 1);
+// $Wonder-Bar---Modified-Victorian-3-hsla: hsla(28, 100, 37, 1);
+// $Wonder-Bar---Modified-Victorian-4-hsla: hsla(5, 81, 31, 1);
+// $Wonder-Bar---Modified-Victorian-5-hsla: hsla(0, 72, 20, 1);
+
+$background-color: #676787;
+$font-color: #E2AD3B;
+$accent: #BF5C00;
+$border: #901B0f;
+$dark: #5C0F0F;
+
+// this pallet is awful change it later
+
+h1 {
+    font-size: 3em;
+    font-style: italic;
+    color: $font-color; 
+    text-align: center;
+    // basic stylings until i get into it more
+}
+
+.intro-p {
+
+    width: 50%;
+    margin: 0 auto;
+}
+
+.login {
+    width: 50%;
+    display: inline-block;
+    button {
+        display: block;
+        margin: auto;
+        padding: 1.5em 2em;
+        color: $font-color;
+    }
+}
