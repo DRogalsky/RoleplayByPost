@@ -1,0 +1,16 @@
+$font-color: #8F0;
+
+nav {
+    display: inline-block;
+    background: black;
+    width: 100%;
+    text-align: right;
+    a {
+        padding: 0.5em;
+        color: $font-color;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

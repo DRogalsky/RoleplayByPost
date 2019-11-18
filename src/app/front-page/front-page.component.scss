@@ -1,0 +1,84 @@
+// /* Color Theme Swatches in Hex */
+// $Wonder-Bar---Modified-Victorian-1-hex: #676787;
+// $Wonder-Bar---Modified-Victorian-2-hex: #E2AD3B;
+// $Wonder-Bar---Modified-Victorian-3-hex: #BF5C00;
+// $Wonder-Bar---Modified-Victorian-4-hex: #901B0F;
+// $Wonder-Bar---Modified-Victorian-5-hex: #5C0F0F;
+
+// /* Color Theme Swatches in RGBA */
+// $Wonder-Bar---Modified-Victorian-1-rgba: rgba(102,103,135, 1);
+// $Wonder-Bar---Modified-Victorian-2-rgba: rgba(226,172,59, 1);
+// $Wonder-Bar---Modified-Victorian-3-rgba: rgba(191,91,0, 1);
+// $Wonder-Bar---Modified-Victorian-4-rgba: rgba(144,26,15, 1);
+// $Wonder-Bar---Modified-Victorian-5-rgba: rgba(91,14,14, 1);
+
+// /* Color Theme Swatches in HSLA */
+// $Wonder-Bar---Modified-Victorian-1-hsla: hsla(239, 13, 46, 1);
+// $Wonder-Bar---Modified-Victorian-2-hsla: hsla(40, 74, 55, 1);
+// $Wonder-Bar---Modified-Victorian-3-hsla: hsla(28, 100, 37, 1);
+// $Wonder-Bar---Modified-Victorian-4-hsla: hsla(5, 81, 31, 1);
+// $Wonder-Bar---Modified-Victorian-5-hsla: hsla(0, 72, 20, 1);
+
+$font-color: #8F0;
+
+// this pallet is awful change it later
+header {
+    background-color: black;
+    h1 {
+        font-size: 3em;
+        font-style: italic;
+        color: $font-color;
+        padding: 0.2em;
+        display: inline-block;
+        // basic stylings until i get into it more
+    }
+    img {
+        height:2.5em;
+        width:2.5em;
+    }
+}
+
+.intro-p {
+
+    width: 50%;
+    margin: 4em auto;
+    line-height: 1.75em;
+}
+
+.loginContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login {
+    width: 40%;
+    margin: 0 5em;
+    .loginContent {
+        border: 1px solid black;
+        border-radius: 0 0 15px 15px;
+    }
+    h3 {
+        border-radius: 15px 15px 0 0;
+        color: $font-color;
+        text-align: center;
+        background-color: black;
+        padding: 0.5em;
+        font-size: 2em;
+    }
+    ul {
+        margin: 0 auto;
+        width: 50%;
+        line-height: 1.5em;
+    }
+    button {
+        display: block;
+        margin: 1em auto;
+        padding: 1.5em 2em;
+        color: $font-color;
+        background-color: black;
+        border: 1px solid black;
+        &:hover {
+            border: 1px solid $font-color;
+        }
+    }
+}
