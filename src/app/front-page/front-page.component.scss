@@ -19,35 +19,66 @@
 // $Wonder-Bar---Modified-Victorian-4-hsla: hsla(5, 81, 31, 1);
 // $Wonder-Bar---Modified-Victorian-5-hsla: hsla(0, 72, 20, 1);
 
-$background-color: #676787;
-$font-color: #E2AD3B;
-$accent: #BF5C00;
-$border: #901B0f;
-$dark: #5C0F0F;
+$font-color: #8F0;
 
 // this pallet is awful change it later
-
-h1 {
-    font-size: 3em;
-    font-style: italic;
-    color: $font-color; 
-    text-align: center;
-    // basic stylings until i get into it more
+header {
+    background-color: black;
+    h1 {
+        font-size: 3em;
+        font-style: italic;
+        color: $font-color;
+        padding: 0.2em;
+        display: inline-block;
+        // basic stylings until i get into it more
+    }
+    img {
+        height:2.5em;
+        width:2.5em;
+    }
 }
 
 .intro-p {
 
     width: 50%;
-    margin: 0 auto;
+    margin: 4em auto;
+    line-height: 1.75em;
+}
+
+.loginContainer {
+    display: flex;
+    justify-content: space-between;
 }
 
 .login {
-    width: 50%;
-    display: inline-block;
+    width: 40%;
+    margin: 0 5em;
+    .loginContent {
+        border: 1px solid black;
+        border-radius: 0 0 15px 15px;
+    }
+    h3 {
+        border-radius: 15px 15px 0 0;
+        color: $font-color;
+        text-align: center;
+        background-color: black;
+        padding: 0.5em;
+        font-size: 2em;
+    }
+    ul {
+        margin: 0 auto;
+        width: 50%;
+        line-height: 1.5em;
+    }
     button {
         display: block;
-        margin: auto;
+        margin: 1em auto;
         padding: 1.5em 2em;
         color: $font-color;
+        background-color: black;
+        border: 1px solid black;
+        &:hover {
+            border: 1px solid $font-color;
+        }
     }
 }
