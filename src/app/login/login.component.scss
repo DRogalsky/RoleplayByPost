@@ -1,0 +1,26 @@
+$font-color: #8F0;
+
+#loginBox {
+    width: 40%;
+    margin: 3em auto;
+    border: 1px solid black;
+    
+    .loginField{
+        width:80%;
+        margin: 1em auto;
+        input {
+            width: 100%;
+        }
+    }
+    button {
+        display: block;
+        margin: 1em auto;
+        padding: 1.5em 4em;
+        color: $font-color;
+        background-color: black;
+        border: 1px solid black;
+        &:hover {
+            border: 1px solid $font-color;
+        }
+    }
+}

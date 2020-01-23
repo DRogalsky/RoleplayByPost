@@ -6,7 +6,6 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { AppRoutingModule } from './app-routing.module';
 import { FrontPageComponent } from './front-page/front-page.component';
 import { GMdashComponent } from './gmdash/gmdash.component';
-import { HeroesComponent } from './heroes/heroes.component';
 import { LoginComponent } from './login/login.component';
 
 @NgModule({
@@ -15,7 +14,6 @@ import { LoginComponent } from './login/login.component';
     NavbarComponent,
     FrontPageComponent,
     GMdashComponent,
-    HeroesComponent,
     LoginComponent
   ],
   imports: [
