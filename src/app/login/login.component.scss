@@ -1,0 +1,50 @@
+$font-color: #9648cd;
+
+#loginBox {
+    width: 40%;
+    margin: 3em auto;
+    
+
+    .fieldContainer {
+        border: 1px solid black;
+        border-radius: 0 0 15px 15px;
+    }
+
+    .loginHeader{
+        
+        padding: 1em 0;
+        background: black;
+        border: 1px solid black;
+        border-radius: 15px 15px 0 0;
+        h3 {
+            margin: 0 auto;
+            color: $font-color;
+            width: 80%;
+            font-size: 2em;
+        }
+    }
+    
+    .loginField{
+        width:80%;
+        margin: 1em auto;
+        input {
+            width: 100%;
+        }
+    }
+    button {
+        display: block;
+        margin: 1em auto;
+        padding: 1.5em 4em;
+        color: $font-color;
+        background-color: black;
+        border: 1px solid black;
+        &:hover {
+            border: 1px solid $font-color;
+        }
+    }
+}
+
+a {
+    text-align: center; 
+}
+// can't figure out how to center this but can't concentrate atm fix later when im thinking straight
