@@ -1,0 +1,33 @@
+import { Game } from './game';
+
+export const GAMES: Game[] = [
+  { id: 11, name: '2300 AD' },
+  { id: 12, name: 'Aberrant' },
+  { id: 13, name: 'Babylon 5' },
+  { id: 14, name: 'Call of Cthulhu' },
+  { id: 15, name: 'Dominion Rules' },
+  { id: 16, name: 'Don\'t Let Them Take You Alive' },
+  { id: 17, name: 'Dungeons & Dragons' },
+  { id: 18, name: 'Eclipse Phase' },
+  { id: 19, name: 'Fiasco' },
+  { id: 20, name: 'Firefly' },
+  { id: 21, name: 'Gatecrasher' },
+  { id: 22, name: 'Hollow Earth Expedition' },
+  { id: 23, name: 'It Was a Mutual Decision' },
+  { id: 24, name: 'Killer' },
+  { id: 25, name: 'Lone Wolf' },
+  { id: 26, name: 'Macho Women with Guns' },
+  { id: 27, name: 'Michtim: Fluffy Adventures' },
+  { id: 28, name: 'The Nearside Project' },
+  { id: 29, name: 'Over the Edge' },
+  { id: 30, name: 'Pandemonium!' },
+  { id: 31, name: 'Rifts' },
+  { id: 32, name: 'Savage Worlds' },
+  { id: 33, name: 'Technoir' },
+  { id: 34, name: 'Underworld' },
+  { id: 35, name: 'Vampire: The Masquerade' },
+  { id: 36, name: 'World of Darkness' },
+  { id: 36, name: 'Xcrawl' },
+  { id: 36, name: 'Year of the Phoenix' },
+  { id: 37, name: 'Zweihänder' }
+];
