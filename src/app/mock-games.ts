@@ -27,7 +27,7 @@ export const GAMES: Game[] = [
   { id: 34, name: 'Underworld' },
   { id: 35, name: 'Vampire: The Masquerade' },
   { id: 36, name: 'World of Darkness' },
-  { id: 36, name: 'Xcrawl' },
-  { id: 36, name: 'Year of the Phoenix' },
-  { id: 37, name: 'Zweihänder' }
+  { id: 37, name: 'Xcrawl' },
+  { id: 38, name: 'Year of the Phoenix' },
+  { id: 39, name: 'Zweihänder' }
 ];
